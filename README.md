@@ -2,21 +2,6 @@
 
 Este projeto implementa o padrão Arquitetura Medalhão (Medallion Architecture) para organização e processamento de dados, estruturado em camadas Bronze, Silver e Gold, garantindo qualidade, governança e escalabilidade no pipeline de dados.
 
-📂 Estrutura de Pastas
-.
-├── data/
-│   ├── bronze/
-│   ├── silver/
-│   └── gold/
-│
-├── ETL/
-│   ├── extraction/
-│   ├── transform/
-│   └── load/
-│
-└── excel/
-    └── modelo_vendas.xlsx
-
 🥉 Bronze – Dados Brutos
 
 Camada responsável pelo armazenamento dos dados brutos (raw data).
